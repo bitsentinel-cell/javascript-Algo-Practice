@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "esNext",
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "rootDir": "./",
+    "incremental": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noErrorTruncation": true,
+    "typeRoots": ["./@types", "./node_modules/@types"],
+    "paths": {
+      "include": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
