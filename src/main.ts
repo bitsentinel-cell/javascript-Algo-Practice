@@ -1,1 +1,5 @@
-console.log('Hello world!');
+import {isPrime} from "./isPrime";
+
+
+console.log(isPrime(10));
+
